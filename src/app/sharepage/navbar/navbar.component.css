@@ -1,0 +1,11 @@
+.navbar-nav .nav-link {
+  color: white !important;       /* change default color */
+  padding: 8px 15px;             /* add spacing if you want */
+  font-weight: 500;              /* make text a bit bolder */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #3FC060 !important;     /* your --primary-color on hover */
+  background-color: rgba(255,255,255,0.1);  /* subtle hover background */
+  border-radius: 5px;
+}
